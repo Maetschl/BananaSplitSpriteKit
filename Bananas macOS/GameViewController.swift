@@ -12,7 +12,7 @@ import GameplayKit
 
 class GameViewController: NSViewController {
 
-    let transparentMode = false
+    let transparentMode = true
 
     override func viewWillAppear() {
         if transparentMode {

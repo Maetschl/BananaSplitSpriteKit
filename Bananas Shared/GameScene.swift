@@ -23,7 +23,7 @@ class GameScene: SKScene {
         self.run(
             .repeatForever(
                 .sequence([
-                    .wait(forDuration: 0.1),
+                    .wait(forDuration: 1),
                     .customAction(withDuration: 0, actionBlock: { _, _ in
                         self.addBall()
                     }
